@@ -655,6 +655,7 @@ Primitives in implementation order. Check off as completed.
 ### Phase 1: Core Primitives
 - [ ] `Task<T>` (lazy coroutine type)
 - [ ] `Task<void>` specialization
+- [ ]  Generator<T> and Generator<void>  
 - [ ] `schedule_on(ThreadPool&)`
 - [ ] `sync_wait(Task<T>)`
 - [ ] Awaitable `Future<T>`
@@ -671,6 +672,7 @@ Primitives in implementation order. Check off as completed.
 - [ ] Linux epoll fallback
 - [ ] macOS kqueue backend
 - [ ] Windows IOCP backend
+- [ ] Interleaved Batching 
 - [ ] `read_file` / `write_file`
 
 ### Testing & Benchmarks
